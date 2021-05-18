@@ -3,9 +3,9 @@
 language Name: German
 Description: German Language to WooCommerce Module for Perfex CRM
 Author:  Christoph Purin
-Author URI: stoffl.info
-Version: 1.0.0
-Module Version: 1.2.0
+Author URI: purin.at
+Version: 1.1.0
+Module Version: 2.2.1
 */
 
 $lang['Afghanistan'] = 'Afghanistan';
@@ -259,32 +259,128 @@ $lang['Yemen'] = 'Jemen';
 $lang['Zambia'] = 'Sambia';
 $lang['Zimbabwe'] = 'Zimbabwe';
 
+// WooCommerce Status
+$lang['failed'] = "Fehlgeschlagen";
+$lang['refunded'] = "Rückerstattet";
+$lang['cancelled'] = "Storniert/Abgebrochen";
+$lang['pending'] = "Zahlung ausstehend";
+$lang['processing'] = "in Bearbeitung";
+$lang['completed'] = "Erledigt";
+$lang['on-hold'] = "in Warteposition";
+
+// Generall Translations
+$lang['invoice_id'] = "Rechnungsnummer";
+$lang['orders'] = 'Bestellungen';
+$lang['products'] = 'Produkte';
+$lang['order_number'] = "Bestell Nummer";
+$lang['customer_details'] = "Kunden Details";
+$lang['woocommerce_order_detail'] = "WooCommerce Bestellung Details";
+$lang['billing_details'] = "Rechnung";
+$lang['shipping_details'] = "Versand";
+$lang['update_status'] = "Status ändern";
+$lang['invoice_order'] = "Rechnung erstellen";
+$lang['woocommerce_orders'] = 'WooCommerce Bestellungen';
+$lang['woocommerce_products'] = 'WooCommerce Produkte';
+$lang['woocommerce_summary'] = 'WooCommerce Zusammenfassung';
+$lang['woocommerce_dashboard'] = 'WooCommerce Dashboard';
+$lang['total_orders']		   = 'Alle Bestellungen';
+$lang['all_products']		   = 'Alle Produkte';
+$lang['total_sales'] 		   = 'Verkäufe in diesem Jahr';
+$lang['phone_number'] = 'Telefonnummer';
+$lang['order_date'] = 'Bestelldatum';
+$lang['status'] = 'Status';
+$lang['action'] = 'Aktion';
+$lang['address'] = 'Adresse';
+$lang['sku'] = 'SKU';
+$lang['picture'] = 'Bild';
+$lang['sales'] = 'Verkauf';
+$lang['total_spent'] = 'Total Spent';
+$lang['avatar'] = 'Profilbild';
+$lang['woocommerce_settings'] = 'WooCommerce Einstellungen';
+$lang['customer'] = 'Kunde';
+$lang['order'] = 'Bestellung';
+$lang['woocommerce'] = 'WooCommerce';
+$lang['woocommerce_customers'] = 'WooCommerce Kunden';
+
+$lang['are_you_Sure_you_want_to_delete_this_Order'] = 'Sind Sie sicher, diese Bestellung zu löschen?';
+$lang['update_order'] = 'Bestellung aktualisieren';
+$lang['add_to_crm'] = 'Import';
+
+$lang['add_customer'] = 'Importiere WooCommerce Kunden ins CRM';
+$lang['customer_id'] = 'WooCommerce ID';
+$lang['contact_add_success'] = 'Kunde erfolgreich mit Kontakt angelegt!';
+$lang['contact_add_failed'] = 'Irgendwas ist schiefen gelaufen, der Kontakt konnte nicht in WooCommerce angelegt werden (schreibrechte inder API aktiviert?)!';
+$lang['customer_add_failed'] = 'Irgendwas ist schiefen gelaufen, es konnte kein Kunde in WooCommerce angelegt werden (schreibrechte inder API aktiviert?)!';
+$lang['order_delete_success'] = 'Bestellung gelöscht!';
+$lang['order_action_failed'] = 'Irgendwas ist schiefen gelaufen, bitte erneut versuchen!';
+$lang['order_update_success'] = 'Bestellung aktualisiert!';
+$lang['settings_update'] = 'Einstellungen geändert';
+$lang['order_delete_failed'] = 'Irgendwas ist schiefen gelaufen, bitte erneut versuchen!';
+$lang['woo_update'] = 'Aktualisierung Überprüfen';
+$lang['woocommerce_client'] = 'WooCommerce Webseiten URL';
+$lang['woocommerce_consumer_key'] = 'WooCommerce Verbraucher Schlüssel (Consumer Key)';
+$lang['woocommerce_consumer_secret'] = 'WooCommerce Verbraucher-Geheimnis (Consumer Secret)';
+$lang['enter_settings'] = 'WooCommerce Einstellungen eingeben';
+$lang['Something_went_wrong'] = 'Irgendwas ist schiefen gelaufen, bitte erneut versuchen!';
+$lang['woo_customer_exist'] = 'WooCommerce Benutzer existiert bereits!';
+$lang['invalid_customer_id'] = 'WooCommerce Kunden ID ist nicht gültig!';
+$lang['fields_required'] = 'Pflichtfelder! bitte alle ausfüllen.';
+$lang['orders'] = 'Bestellungen';
+$lang['products'] = 'Produkte';
+$lang['woocommerce_order'] = 'Woocommerce Bestellinfo';
+$lang['order_id'] = 'Bestell ID';
+$lang['products_bought'] = 'gekaufte Produkte';
+$lang['customer_details'] = 'Kundendetails';
+$lang['billing_details'] = 'Rechnungsdetails';
+$lang['shipping_details'] = 'Versanddetails';
+$lang['quantity'] = 'Menge';
+$lang['price'] = 'Preis';
+$lang['total'] = 'Gesamt';
+$lang['back'] = 'Zurück';
+$lang['invoice_order'] = 'in Rechnung wandeln';
+$lang['update_status'] = 'Status ändern';
+
+$lang['woocommerce_order_detail'] = 'WooCommerce Bestelldetails';
+$lang['invoice_exists_info'] = 'Diese Bestellung wurde bereits eine REchnung erstellt, eine neue Rechnung stellen?';
+$lang['customer_exist_not'] = 'Kunde wurde noch nicht in das CRM importiert, bitte zuerst den Kunden importieren!';
 
 //2.0.3
+$lang['delay'] = "Dieser Vorgang benötigt eine Zeit";
+$lang['check_updates'] = "Auf Aktualisierungen überprüfen";
+$lang['reset_module'] = "Modul zurücksetzen";
+$lang['test_connection'] = "Verbindungstest";
+$lang['connect_success'] = "Verbindung zum Shop war erfolgreich!";
+$lang['woo_check_successful'] = "WooCommerce Überprüfung erfolgreich";
+$lang['woo_reset_success'] = "WooCommerce erfolgreich zurückgesetzt";
 
-$lang['delay'] = "Questo processo richiederebbe un po 'di tempo";
-$lang['check_updates'] = "Controlla aggiornamento";
-$lang['reset_module'] = "Reimposta modulo";
-$lang['test_connection'] = "Test di connessione";
-$lang['connect_success'] = "Connessione al negozio riuscita";
-$lang['woo_check_successful'] = "controllo woocommerce riuscito";
-$lang['woo_reset_success'] = "dati di WooCommerce ripristinati correttamente";
+// 2.0.5
+$lang['publish'] = "Veröffentlichen";
+$lang['draft'] = "Entwurf";
+$lang['update'] = "Aktualisieren";
+$lang['username'] = "Benutzername";
+$lang['email'] = "E-Mail";
+$lang['passwords_dont_match'] = "DAs passwort stimmt nicht überein!";
+$lang['delete_product'] = "Produkt löschen";
+$lang['short_description'] = "Kurzbeschreibung";
+$lang['checking_store'] = "aktualisieren ...";
+$lang['reseting'] = "zurücksetzen ...";
+$lang['Support'] = "Hilfe erhalten";
 
-// 2.2.0
-$lang['woocommerce_store_added'] = 'Neuer Speicher hinzugefügt';
-$lang['woocommerce_store_failed'] = 'Aktion fehlgeschlagen. Versuchen Sie es erneut';
-$lang['woocommerce_store_deleted'] = 'Store wurde gelöscht';
-$lang['store_activity_removed_assignees'] = 'Mitarbeiter aus dem Geschäft entfernt, ID =';
-$lang['staff_added_as_store_member'] = 'Ihnen wurde ein neuer Shop zugewiesen';
-$lang['store_activity_added_assignees'] = 'Zu speichernde Mitarbeiter: staffID =';
-$lang['store_activity_added_staff'] = 'Neue Mitarbeiter zum Speichern zuweisen: Mitarbeiter';
-$lang['delete_store_query'] = 'Möchten Sie Store wirklich löschen?';
-$lang['new_woocommerce_store'] = 'Neuen Shop hinzufügen';
-$lang['woocommerce_store_id'] = '#';
-$lang['woocommerce_store_name'] = 'Geschäftsname';
-$lang['woocommerce_store_assigned'] = 'Zugewiesen an';
-$lang['woocommerce_store_date'] = 'Datum hinzugefügt';
-$lang['woocommerce_stores'] = 'WooCommerce Geschäft';
-$lang['store_id'] = 'Geschäft Id';
-$lang['help'] = 'Hilfe';
-$lang['woocommerce_new_store'] = 'Speicher aktualisieren';
+// 2.2.0 
+$lang['woocommerce_store_added'] = "Neuer Shop hinzugefügt";
+$lang['woocommerce_store_failed'] = "Leider ist etwas schief gelaufen, bitte erneut versuchen!";
+$lang['woocommerce_store_deleted'] = "Shop gelsöcht";
+$lang['store_activity_removed_assignees'] = "Mitarbeiter von Shop löschen, ID = ";
+$lang['staff_added_as_store_member'] = "Neuer Shop wurde an Sie zugewiesen";
+$lang['store_activity_added_assignees'] = "Shop an Mitarbeiter hinzugefügt: staffID=";
+$lang['store_activity_added_staff'] = "Ahop an neuen Mitarbeiter hinzugefügt: Staff";
+$lang['delete_store_query'] = "Sind Sie sich sicher, diesen Shop zu löschen?";
+$lang['new_woocommerce_store'] = "Neuer Shop hinzufügen";
+$lang['woocommerce_store_id'] = "#";
+$lang['woocommerce_store_name'] = "Shop Name";
+$lang['woocommerce_store_assigned'] = "Zugewiesen an";
+$lang['woocommerce_store_date'] = "Datum erstellt";
+$lang['woocommerce_stores'] = "WooCommerce Shop";
+$lang['store_id'] = "Shop Id";
+$lang['help'] = "Hilfe";
+$lang['woocommerce_new_store'] = "Shop aktualisieren";
