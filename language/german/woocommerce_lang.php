@@ -269,12 +269,15 @@ $lang['completed'] = "Erledigt";
 $lang['on-hold'] = "in Warteposition";
 $lang['on_hold'] = "in Warteposition";
 
+//Buttons
+$lang['select'] = 'Auswählen';
+
 // Generall Translations
 $lang['invoice_id'] = "Rechnungsnummer";
 $lang['orders'] = 'Bestellungen';
 $lang['products'] = 'Produkte';
-$lang['order_number'] = "Bestell Nummer";
-$lang['customer_details'] = "Kunden Details";
+$lang['order_number'] = "Bestellnummer";
+$lang['customer_details'] = "Kundendetails";
 $lang['woocommerce_order_detail'] = "WooCommerce Bestellung Details";
 $lang['billing_details'] = "Rechnung";
 $lang['shipping_details'] = "Versand";
@@ -294,14 +297,15 @@ $lang['action'] = 'Aktion';
 $lang['address'] = 'Adresse';
 $lang['sku'] = 'SKU';
 $lang['picture'] = 'Bild';
-$lang['sales'] = 'Verkauf';
-$lang['total_spent'] = 'Total Spent';
+$lang['sales'] = 'Verkäufe';
+$lang['total_spent'] = 'Gesamtsumme';
 $lang['avatar'] = 'Profilbild';
 $lang['woocommerce_settings'] = 'WooCommerce Einstellungen';
 $lang['customer'] = 'Kunde';
 $lang['order'] = 'Bestellung';
 $lang['woocommerce'] = 'WooCommerce';
 $lang['woocommerce_customers'] = 'WooCommerce Kunden';
+$lang['stores'] = 'Shops';
 
 $lang['are_you_Sure_you_want_to_delete_this_Order'] = 'Sind Sie sicher, diese Bestellung zu löschen?';
 $lang['update_order'] = 'Bestellung aktualisieren';
@@ -315,7 +319,6 @@ $lang['customer_add_failed'] = 'Irgendwas ist schiefen gelaufen, es konnte kein 
 $lang['order_delete_success'] = 'Bestellung gelöscht!';
 $lang['order_action_failed'] = 'Irgendwas ist schiefen gelaufen, bitte erneut versuchen!';
 $lang['order_update_success'] = 'Bestellung aktualisiert!';
-$lang['settings_update'] = 'Einstellungen geändert';
 $lang['order_delete_failed'] = 'Irgendwas ist schiefen gelaufen, bitte erneut versuchen!';
 $lang['woo_update'] = 'Aktualisierung Überprüfen';
 $lang['woocommerce_client'] = 'WooCommerce Webseiten URL';
@@ -325,7 +328,7 @@ $lang['enter_settings'] = 'WooCommerce Einstellungen eingeben';
 $lang['Something_went_wrong'] = 'Irgendwas ist schiefen gelaufen, bitte erneut versuchen!';
 $lang['woo_customer_exist'] = 'WooCommerce Benutzer existiert bereits!';
 $lang['invalid_customer_id'] = 'WooCommerce Kunden ID ist nicht gültig!';
-$lang['fields_required'] = 'Pflichtfelder! bitte alle ausfüllen.';
+$lang['fields_required'] = 'Bitte alle Pflichtfelder ausfüllen!';
 $lang['orders'] = 'Bestellungen';
 $lang['products'] = 'Produkte';
 $lang['woocommerce_order'] = 'Woocommerce Bestellinfo';
@@ -344,6 +347,13 @@ $lang['update_status'] = 'Status ändern';
 $lang['woocommerce_order_detail'] = 'WooCommerce Bestelldetails';
 $lang['invoice_exists_info'] = 'Diese Bestellung wurde bereits eine REchnung erstellt, eine neue Rechnung stellen?';
 $lang['customer_exist_not'] = 'Kunde wurde noch nicht in das CRM importiert, bitte zuerst den Kunden importieren!';
+$lang['paying']= 'Zahlende Kunden';
+$lang['non_paying']= 'nicht Zahlende Kunden';
+$lang['external']= 'Externe Produkte';
+$lang['grouped']= 'Gruppierte Produkte';
+$lang['simple']= 'Einfache Produkte';
+$lang['variable']= 'Variable Produkte';
+$lang['assignees'] = 'Zugewiesen';
 
 //2.0.3
 $lang['delay'] = "Dieser Vorgang benötigt eine Zeit";
@@ -351,7 +361,7 @@ $lang['check_updates'] = "Auf Aktualisierungen überprüfen";
 $lang['reset_module'] = "Modul zurücksetzen";
 $lang['test_connection'] = "Verbindungstest";
 $lang['connect_success'] = "Verbindung zum Shop war erfolgreich!";
-$lang['woo_check_successful'] = "WooCommerce Überprüfung erfolgreich";
+$lang['woo_check_successful'] = 'WooCommerce Überprüfung erfolgreich';
 $lang['woo_reset_success'] = "WooCommerce erfolgreich zurückgesetzt";
 
 // 2.0.5
