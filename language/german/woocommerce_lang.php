@@ -369,7 +369,7 @@ $lang['Support'] = "Hilfe erhalten";
 // 2.2.0 
 $lang['woocommerce_store_added'] = "Neuer Shop hinzugefügt";
 $lang['woocommerce_store_failed'] = "Leider ist etwas schief gelaufen, bitte erneut versuchen!";
-$lang['woocommerce_store_deleted'] = "Shop gelsöcht";
+$lang['woocommerce_store_deleted'] = "Shop gelöscht";
 $lang['store_activity_removed_assignees'] = "Mitarbeiter von Shop löschen, ID = ";
 $lang['staff_added_as_store_member'] = "Neuer Shop wurde an Sie zugewiesen";
 $lang['store_activity_added_assignees'] = "Shop an Mitarbeiter hinzugefügt: staffID=";
