@@ -267,6 +267,7 @@ $lang['pending'] = "Zahlung ausstehend";
 $lang['processing'] = "in Bearbeitung";
 $lang['completed'] = "Erledigt";
 $lang['on-hold'] = "in Warteposition";
+$lang['on_hold'] = "in Warteposition";
 
 // Generall Translations
 $lang['invoice_id'] = "Rechnungsnummer";
