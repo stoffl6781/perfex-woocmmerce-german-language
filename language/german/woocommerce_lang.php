@@ -399,5 +399,5 @@ $lang['woocommerce_new_store'] = "Shop aktualisieren";
 $lang['woocommerce_query_auth'] = "Query (Abfrage) Authentifizierung (Sollten Probleme mit der Verbindung zum Shop entstehen, auf NEIN stellen.)";
 $lang['woocommerce_payment_method'] = "Zahlungsmethode";
 $lang['woocommerce_line_products'] = "Einzelposten";
-$lang['woocommerce_total_tax'] = "gekaufte pProdukte";
+$lang['woocommerce_total_tax'] = "gekaufte Produkte";
 
