@@ -3,8 +3,7 @@
 language Name: German
 Description: German Language to WooCommerce Module for Perfex CRM
 Author:  Christoph Purin
-Author URI: purin.at
-Version: 1.1.0
+Version: 1.2.0
 Module Version: 2.2.1
 */
 
@@ -345,7 +344,7 @@ $lang['invoice_order'] = 'in Rechnung wandeln';
 $lang['update_status'] = 'Status ändern';
 
 $lang['woocommerce_order_detail'] = 'WooCommerce Bestelldetails';
-$lang['invoice_exists_info'] = 'Diese Bestellung wurde bereits eine REchnung erstellt, eine neue Rechnung stellen?';
+$lang['invoice_exists_info'] = 'Diese Bestellung wurde bereits eine Rechnung erstellt, eine neue Rechnung stellen?';
 $lang['customer_exist_not'] = 'Kunde wurde noch nicht in das CRM importiert, bitte zuerst den Kunden importieren!';
 $lang['paying']= 'Zahlende Kunden';
 $lang['non_paying']= 'nicht Zahlende Kunden';
@@ -356,7 +355,7 @@ $lang['variable']= 'Variable Produkte';
 $lang['assignees'] = 'Zugewiesen';
 
 //2.0.3
-$lang['delay'] = "Dieser Vorgang benötigt eine Zeit";
+$lang['delay'] = "Dieser Vorgang benötigt einige Zeit";
 $lang['check_updates'] = "Auf Aktualisierungen überprüfen";
 $lang['reset_module'] = "Modul zurücksetzen";
 $lang['test_connection'] = "Verbindungstest";
@@ -370,7 +369,7 @@ $lang['draft'] = "Entwurf";
 $lang['update'] = "Aktualisieren";
 $lang['username'] = "Benutzername";
 $lang['email'] = "E-Mail";
-$lang['passwords_dont_match'] = "DAs passwort stimmt nicht überein!";
+$lang['passwords_dont_match'] = "Das Passwort stimmt nicht überein!";
 $lang['delete_product'] = "Produkt löschen";
 $lang['short_description'] = "Kurzbeschreibung";
 $lang['checking_store'] = "aktualisieren ...";
@@ -392,6 +391,13 @@ $lang['woocommerce_store_name'] = "Shop Name";
 $lang['woocommerce_store_assigned'] = "Zugewiesen an";
 $lang['woocommerce_store_date'] = "Datum erstellt";
 $lang['woocommerce_stores'] = "WooCommerce Shop";
-$lang['store_id'] = "Shop Id";
+$lang['store_id'] = "Shop ID";
 $lang['help'] = "Hilfe";
 $lang['woocommerce_new_store'] = "Shop aktualisieren";
+
+// 2.2.2
+$lang['woocommerce_query_auth'] = "Query (Abfrage) Authentifizierung (Sollten Probleme mit der Verbindung zum Shop entstehen, auf NEIN stellen.)";
+$lang['woocommerce_payment_method'] = "Zahlungsmethode";
+$lang['woocommerce_line_products'] = "Einzelposten";
+$lang['woocommerce_total_tax'] = "gekaufte pProdukte";
+
