@@ -399,5 +399,12 @@ $lang['woocommerce_new_store'] = "Shop aktualisieren";
 $lang['woocommerce_query_auth'] = "Query (Abfrage) Authentifizierung (Sollten Probleme mit der Verbindung zum Shop entstehen, auf NEIN stellen.)";
 $lang['woocommerce_payment_method'] = "Zahlungsmethode";
 $lang['woocommerce_line_products'] = "Einzelposten";
-$lang['woocommerce_total_tax'] = "gekaufte Produkte";
+$lang['woocommerce_total_tax'] = "Steuer";
+$lang['woocommerce_subtotal'] = "Zwischensumme";
+$lang['woocommerce_total_shipping'] = "Versand";
+$lang['bundle'] = "Bundel";
+$lang['composite'] = "Composite";
+$lang['woocommerce_customer_id'] = "Kunden ID";
+$lang['woocommerce_status_select'] = "STATUS (bitte auswählen)";
+$lang['woocommerce_order_id'] = "Bestellung";
 
